@@ -1,7 +1,7 @@
 # Statistical Methods in Javascript
 
 ## Transparent Proxy Routes
-This is a simply an exercise in writing a transparent proxy that implements various statistical methods on time series data, where the provided date is ISO 8601 compliant and the value is a floating point number. More specifically, the imagined data is in the below form and the provided endpoints are Normalization, Z-Score, and Linear Combination. These functions are well-solved in Python using its great scientific libraries, but I thought an implementation in Javascript might be a decent challenge. Well, here it is!
+This is a simple exercise in writing a transparent proxy that implements various statistical methods on time series data, where the provided date is ISO 8601 compliant and the value is a floating point number. More specifically, the imagined data is in the below form and the provided endpoints are Normalization, Z-Score, and Linear Combination. These functions are well-solved in Python using its great scientific libraries, but I thought an implementation in Javascript might be a decent challenge. Well, here it is!
 
 ```sh
 [ {"date": "2014-03-01", "value": 45.555}, {...} ]
@@ -27,4 +27,4 @@ The entry point for the web server is app.js. To start it up:
 npm start
 ```
 
-The port is set to 8080 and the app should be accessible upon start-up at the routes specified in the challenge.
+The port is set to 8080 and the app should be accessible upon start-up at the routes specified in the code comments.
